@@ -40,3 +40,7 @@ On va plutôt utiliser  Arial/Arial Black/Comic Sans MS/
 			  Times New Roman/Trebuchet MS/Verdana.
 ____________________________________________________________________
 Italique, gras et souligné
+
+font-style: italic;
+font-style: normal;
+font-weight: bold; (gras)
