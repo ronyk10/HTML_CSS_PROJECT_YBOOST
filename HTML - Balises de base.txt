@@ -1,0 +1,35 @@
+HTML - Balises de base
+
+<title> </title> Pour le titre de l'onglet
+
+<h1></h1> Gros titre
+
+<mark> </mark> surligner (jaune par défaut)
+
+<br/> Retour à la ligne
+
+<ul>          //lsite à puces
+
+<li> X</li>  // puce
+<li> Y </li> // puce
+<li> Z </li> // puce
+
+</ul>
+
+<h2></h2> Sous-titre
+
+(y'a jusqu'à h6)
+
+<p></p> Paragraphe000
+
+<strong></strong> mettre en gras
+
+<em> </em> italique
+
+<ol>          //lsite numérotée
+
+<li> X</li>  // 1)
+<li> Y </li> // 2)
+<li> Z </li> // 3)
+
+</ol>

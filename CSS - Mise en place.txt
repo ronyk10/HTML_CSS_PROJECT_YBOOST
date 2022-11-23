@@ -1,0 +1,30 @@
+Mise en place du CSS
+
+Mettre en couleur :
+
+p 
+{
+    color: blue;
+}
+
+Mettre en couleur grâce au classes :
+
+.nom_de_ta_classe
+{
+    color: blue;
+}
+
+après ds ton html tu appelles ta classe :
+<p class="nom_de_ta_classe">Bonjour et bienvenue sur mon site !</p>
+
+/* texte */  faire un commentaire en CSS
+
+Mettre en couleur grâce à l'id :
+
+#logo
+{
+    color: blue;
+}
+après ds ton html tu appelles ton id :
+<img src="images/logo.png" alt="Logo du site" id="logo">
+ça va mettre le logo en couleur

@@ -1,0 +1,42 @@
+CSS - Formatage de texte 
+
+La taille :
+
+p
+{
+    font-size: 14px; /* Paragraphes de 14 pixels */  // Taille absolue du texte
+}
+
+h1
+{
+    font-size: 40px; /* Titres de 40 pixels */
+}
+
+valeur relative : 
+
+xx-small  : minuscule ;
+
+x-small  : très petit ;
+
+small  : petit ;
+
+medium  : moyen ;
+
+large  : grand ;
+
+x-large  : très grand ;
+
+xx-large  : euh… gigantesque.
+____________________________________________________________________
+La police :
+
+nom_balise
+{
+    font-family: police1, police2, police3, police4;
+}
+
+On va plutôt utiliser  Arial/Arial Black/Comic Sans MS/
+			      Courier New/Georgia/Impact/
+			  Times New Roman/Trebuchet MS/Verdana.
+____________________________________________________________________
+Italique, gras et souligné

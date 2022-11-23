@@ -1,0 +1,10 @@
+<p><a href="le lien du site">Nom du site</a></p> Pour rediriger vers un site
+
+<a href="#cuisine">La cuisine</a><br /> //en gros ça va te rediriger à l'endroit
+<h2 id="cuisine">La cuisine</h2>       //où y'a la cuisine
+
+target="_blank" (dans le href) --> ouvre ds un nvl onglet
+
+<p> 
+M'envoyer un e-mail en cliquant <a href= "mailto:klrony15@gmail.com"  //e-mail
+  title = "Send an e-mail" target="_blank"> ici</a> </p>
