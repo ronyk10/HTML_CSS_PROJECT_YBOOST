@@ -1,0 +1,223 @@
+@font-face {
+    font-family: 'haettenschweilerregular';
+    src: url('/font/haettenschweiler_fr.allfont.net-webfont.woff2') format('woff2'),
+         url('/font/haettenschweiler_fr.allfont.net-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+    header {
+        padding: 20px 0 20px;
+        height:100px;
+        flex-wrap: nowrap;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: rgb(0,0, 0,0.5) ;
+        
+    }
+
+    .logo {
+ 
+    scale:0.3;
+    cursor:pointer;
+    position:absolute;
+    left:-80px;
+    top:-80px;   
+
+    }
+.main-width {
+    width: 1280px;
+    max-width: 95%;
+    margin: 0 auto;
+    padding: 0px 20px;
+}
+
+
+
+.jordan {
+margin-top: -180px;
+margin-left: 33%;
+
+display: flex;
+align-items: center;
+justify-content: center;
+filter:drop-shadow(0 0 2rem #000);
+scale:0.6;
+}
+
+.jumpman {
+    position: absolute;
+    max-width: 40%;
+    color:white;
+}
+nav .nav-list {
+    list-style: none;
+}
+
+nav .nav-list li {
+    display: inline-block;
+}
+
+nav .nav-list li a {
+    display: inline-block;
+    color: #eee;
+    margin-left: 55px;
+    margin-right:50px;
+    font-size: 20px;
+    font-weight: 200;
+    font-family: 'haettenschweilerregular';
+}
+
+nav .nav-list li a:hover {
+    color: #000000;
+    transition: .4s;
+}
+
+
+body{
+    background: linear-gradient(to right, #ab0cb1, #244ae1);
+}
+
+h1{
+    color: rgb(0, 0, 0);
+    font-family: "haettenschweilerregular";
+    font-weight: 200;
+    font-size: 75px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.container{
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+#logo-texte{
+    position: absolute;
+    top: 30px;
+    left: 70px;
+    font-family: "haettenschweilerregular";
+    font-weight: 150px;
+    font-size: 25px;
+    text-align: center;
+   
+    color:white;
+}
+
+p{
+display: flex;
+justify-content: center;
+margin-top:-150px;
+color:white;
+font-family: "haettenschweilerregular";
+font-weight: 100px;
+
+
+}
+
+
+.wrap {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button {
+  min-width: 200px;
+  min-height: 60px;
+  font-family: 'Nunito', sans-serif;
+  font-size: 22px;
+  text-transform: uppercase;
+  letter-spacing: 1.3px;
+  font-weight: 700;
+  color: #313133;
+  background: #b14fd1;
+background: linear-gradient(90deg, rgb(215, 129, 230) 0%, rgb(198, 79, 209) 100%);
+  border: none;
+  border-radius: 1000px;
+  box-shadow: 12px 12px 24px rgba(168, 79, 209, 0.64);
+  transition: all 0.3s ease-in-out 0s;
+  cursor: pointer;
+  outline: none;
+  position: relative;
+  padding: 10px;
+  margin-top: 30px;
+}
+
+button::before {
+content: '';
+  border-radius: 1000px;
+  min-width: calc(200px + 12px);
+  min-height: calc(60px + 12px);
+  border: 4px solid #e600ff;
+  box-shadow: 0 0 60px rgba(225, 27, 149, 0.64);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: all .3s ease-in-out 0s;
+}
+
+.button:hover, .button:focus {
+  color: #313133;
+  transform: translateY(-6px);
+}
+
+button:hover::before, button:focus::before {
+  opacity: 1;
+}
+
+button::after {
+  content: '';
+  width: 30px; height: 30px;
+  border-radius: 100%;
+  border: 6px solid #e600ff;
+  position: absolute;
+  z-index: -1;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation: ring 2s infinite;
+}
+
+button:hover::after, button:focus::after {
+  animation: none;
+  display: none;
+}
+
+@keyframes ring {
+  0% {
+    width: 20px;
+    height: 20px;
+    opacity: 1;
+  }
+  100% {
+    width: 300px;
+    height: 300px;
+    opacity: 0;
+  }
+}
+p
+{
+    font-size: x-large; /* Paragraphes de 14 pixels */
+    font-family : 'Arial Black',
+}
+h1
+{
+    font-size: 40px; /* Titres de 40 pixels */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
+}
