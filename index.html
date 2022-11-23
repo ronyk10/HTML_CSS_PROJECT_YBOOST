@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Site Felicien</title>
+</head>
+<body>
+    <header>
+    <div>
+            <img src="assets/Jumpman_logo.svg" class="logo"> 
+            
+        <div id="logo-texte"> Jordan </div>
+    </div>
+        <nav>
+            <ul class="nav-list">
+                <li><a href="">Sneakers</a></li>
+                <li><a href="">Team</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">En légende</a></li>
+            </ul>
+        </nav>
+    </header>
+    <h1> Dream it, Do it! </h1>
+    
+    <div class="container">
+    
+    <img src="/assets/sneaker.png" class="jordan"> 
+</div>
+
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+    <br>    
+    maxime reiciendis rem quia veritatis quod, 
+    <br>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit
+    <br>
+    maxime reiciendis rem quia veritatis quod, 
+</p>
+
+
+<div class="wrap">
+    <button class="button">BUY IT NOW !</button>
+  </div>
+
+</body>
+
+
+
+<script>
+    const jordan = document.querySelector('.jordan');
+    jordan.addEventListener('mousemove', (e) => {
+        let xAxis = (window.innerWidth / 2 - e.pageX) / 10;
+        let yAxis = (window.innerHeight / 2 - e.pageY) / 10;
+        jordan.style.transform = `rotateY(${xAxis}deg) rotateX(${yAxis}deg)`;
+    });
+    jordan.addEventListener('mouseenter', (e) => {
+        jordan.style.transition = 'none';
+    });
+    jordan.addEventListener('mouseleave', (e) => {
+        jordan.style.transition = 'all 0.5s ease';
+        jordan.style.transform = `rotateY(0deg) rotateX(0deg)`;
+    });
+    </script>
+</html>
